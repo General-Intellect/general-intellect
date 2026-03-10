@@ -3,8 +3,7 @@
 > Persistent, semantic memory for AI agents. No vector DB required.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/general-intellect)](https://pypi.org/project/general-intellect/)
-[![npm](https://img.shields.io/npm/v/general-intellect)](https://www.npmjs.com/package/general-intellect)
+[![PyPI](https://img.shields.io/pypi/v/general-intellect?label=PyPI)](https://pypi.org/project/general-intellect/)
 
 ## One command to start
 
