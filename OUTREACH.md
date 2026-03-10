@@ -20,7 +20,7 @@ Target: submit PRs to 20 top Vapi/Retell agent repos, get 5+ merged.
 
 | Repo | Stars | Lang | PR # | Status | Notes |
 |------|-------|------|------|--------|-------|
-| [adrianhajdin/ai_mock_interviews](https://github.com/adrianhajdin/ai_mock_interviews) | 500 | TypeScript | — | pending | Next.js + Vapi, high visibility |
+| [adrianhajdin/ai_mock_interviews](https://github.com/adrianhajdin/ai_mock_interviews) | 500 | TypeScript | [#38](https://github.com/adrianhajdin/ai_mock_interviews/pull/38) | pr-open | Memory improves interview personalization over time |
 | [adrianhajdin/saas-app](https://github.com/adrianhajdin/saas-app) | 395 | TypeScript | — | pending | Next.js + Vapi + Supabase |
 | [cameronking4/VapiBlocks](https://github.com/cameronking4/VapiBlocks) | 83 | TypeScript | — | pending | React component library |
 | [Awaisali36/Outbound-Real-State-Voice-AI-Agent-](https://github.com/Awaisali36/Outbound-Real-State-Voice-AI-Agent-) | 30 | — | — | pending | n8n + Vapi outbound calling |
