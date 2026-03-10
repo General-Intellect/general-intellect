@@ -1,0 +1,8 @@
+services:
+  gi-server:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GI_LOG_LEVEL=info
+    restart: unless-stopped
