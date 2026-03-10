@@ -1,0 +1,2 @@
+openai>=1.30.0
+general-intellect>=0.1.0

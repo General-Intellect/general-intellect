@@ -1,0 +1,32 @@
+site_name: General Intellect
+site_description: Persistent, semantic memory for AI agents. No vector DB required.
+site_url: https://general-intellect.github.io/general-intellect
+repo_url: https://github.com/General-Intellect/general-intellect
+repo_name: General-Intellect/general-intellect
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - API Reference: api-reference.md
+  - Vapi Integration: vapi-integration.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - tables
