@@ -18,13 +18,21 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["ai", "agents", "memory", "vapi", "retell", "llm"],
+  "keywords": [
+    "ai",
+    "agents",
+    "memory",
+    "vapi",
+    "retell",
+    "llm"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/General-Intellect/general-intellect"
   },
   "devDependencies": {
+    "@types/node": "^25.4.0",
     "typescript": "^5.4.0"
   },
   "engines": {
