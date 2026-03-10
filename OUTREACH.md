@@ -11,7 +11,7 @@ Target: submit PRs to 20 top Vapi/Retell agent repos, get 5+ merged.
 
 | Repo | Stars | Lang | PR # | Status | Notes |
 |------|-------|------|------|--------|-------|
-| [techwithtim/VAPI-AI-Voice-Assistant](https://github.com/techwithtim/VAPI-AI-Voice-Assistant) | 26 | Python/Flask | — | pending | Simple main.py, add /webhook with memory |
+| [techwithtim/VAPI-AI-Voice-Assistant](https://github.com/techwithtim/VAPI-AI-Voice-Assistant) | 26 | Python/Flask | [#2](https://github.com/techwithtim/VAPI-AI-Voice-Assistant/pull/2) | pr-open | Simple main.py, add /webhook with memory |
 | [extrawest/vapi_personal_assistant_voice_agent](https://github.com/extrawest/vapi_personal_assistant_voice_agent) | 7 | Python/FastAPI | — | pending | Structured app, add memory to call route |
 | [mahimairaja/vapiserve](https://github.com/mahimairaja/vapiserve) | 4 | Python | — | pending | Vapi custom tools server |
 | [mcd0056/Vapi-Voice-Agent](https://github.com/mcd0056/Vapi-Voice-Agent) | 4 | Python | — | pending | Minimal Vapi agent |
