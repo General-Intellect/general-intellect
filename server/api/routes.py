@@ -2,6 +2,7 @@ import time
 
 from fastapi import APIRouter, HTTPException
 
+from ..memory.acl import validate_identity
 from ..memory.models import (
     ExpireRequest,
     MemoryQuery,
@@ -17,6 +18,7 @@ store = MemoryStore()
 
 @router.post("/memory", response_model=MemoryWriteResponse)
 async def write_memory(payload: MemoryWrite):
+    validate_identity(payload.agent_id, payload.namespace)
     t0 = time.time()
     mem_id = store.write(
         agent_id=payload.agent_id,
@@ -29,6 +31,7 @@ async def write_memory(payload: MemoryWrite):
 
 @router.post("/memory/query", response_model=MemoryQueryResponse)
 async def query_memory(payload: MemoryQuery):
+    validate_identity(payload.agent_id, payload.namespace)
     t0 = time.time()
     results = store.query(
         agent_id=payload.agent_id,
