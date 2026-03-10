@@ -1,0 +1,33 @@
+{
+  "name": "general-intellect",
+  "version": "0.1.0",
+  "description": "Persistent, semantic memory for AI agents. No vector DB required.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./vapi": {
+      "import": "./dist/vapi.js",
+      "types": "./dist/vapi.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ai", "agents", "memory", "vapi", "retell", "llm"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/General-Intellect/general-intellect"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
